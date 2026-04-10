@@ -10,6 +10,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import static java.time.Duration.ofSeconds;
 
 public class MainPage {
+    public static final String BASE_URL = "https://qa-scooter.praktikum-services.ru/";
 
     private WebDriver driver;
 
